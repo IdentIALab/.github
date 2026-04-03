@@ -1,6 +1,6 @@
 # 🚀 IdentIA Lab - Agente IdentIA
 
-> **Transformando la manera en que las empresas interactúan con inteligencia artificial.**
+> **No estamos programando "bots". Estamos compilando una nueva forma de trabajar.**
 
 ---
 
@@ -16,12 +16,35 @@ IdentIA Lab es un **Startup Studio** que crea productos SaaS propios impulsados 
 
 ---
 
+## 🤖 Agente IdentIA - El Equipo de IA
+
+**Construido en OpenClaw** (5 días de deep work, 120 horas de inmersión).
+
+Cada agente es una IA autónoma ejecutándose en su propia VM aislada en Google Cloud, con:
+- ✅ Su propio cerebro (LLM: Gemini)
+- ✅ Su propia memoria persistente
+- ✅ Su propia "oficina" digital
+- ✅ Tareas autónomas + supervisión humana
+
+### 👥 El Equipo
+
+| Rol | Agent | Responsabilidades |
+|-----|-------|------------------|
+| **CEO/Founder** | David Fajardo | Visión estratégica, decisiones C-Level, deep work arquitectura |
+| **COO** | Clawdy | Operatividad, Inbox Zero, gestión de sub-agentes, itinerario |
+| **Growth Lead** | Growthy | Escalado vía X/LinkedIn, content domination, cronograma editorial |
+| **Sales** | Hunter | Prospecting, outreach estratégico, cierre de ventas |
+| **CTO** | Techny | Infraestructura técnica, zero technical debt, AI-first architecture |
+| **Support** | Little Claw | Automatización de tareas recurrentes, barridos automáticos |
+
+---
+
 ## 🌐 Productos & Dominios
 
 | Producto | Dominio | Descripción |
 |----------|---------|-------------|
 | **Agente IdentIA** | https://agente.identialab.com | Agente conversacional multi-tenant en WhatsApp/Web + agendamiento 24/7 |
-| **Sophia (IA Assistant)** | https://sophia.identialab.com | Asesor IA gratis que enseña aplicar IA en negocios + ROI |
+| **Sophia (IA Assistant)** | https://sophia.identialab.com | Asesor IA que enseña aplicar IA en negocios + ROI |
 | **IdentIA Lab (Startup)** | https://www.identialab.com | Sitio corporativo, productos y visión del studio |
 | **Buntu Psicología** | https://www.buntupsicologia.com | App de psicología digital y bienestar mental |
 
@@ -29,23 +52,14 @@ IdentIA Lab es un **Startup Studio** que crea productos SaaS propios impulsados 
 
 ## 📦 Proyectos Principales
 
-### ✅ **Agente IdentIA - Construcción con OpenClaw**
-Sistema multi-agente coordinado, construido en **OpenClaw**, con roles especializados:
-- **David Fajardo (CEO/Founder):** Visión estratégica, decisiones C-Level, deep work en arquitectura
-- **Clawdy (COO):** Operatividad total, Inbox Zero, gestión de sub-agentes
-- **Growthy (Growth Agent):** Escalado vía X/LinkedIn, content domination
-- **Hunter (Sales Agent):** Prospecting, outreach estratégico, cierre de ventas
-- **Techny (CTO):** Infraestructura técnica, zero technical debt, AI-first architecture
-- **Little Claw (Support):** Automatización de tareas recurrentes, barridos automáticos
-
-**Capacidades:**
-- Atención automática en WhatsApp y Web
-- Agendamiento integrado con calendarios
-- Respuestas inteligentes con IA
-- Panel de control centralizado
+### ✅ **Agente IdentIA - Multi-Agent System**
+- **Atención automática** en WhatsApp y Web (24/7)
+- **Agendamiento integrado** con calendarios
+- **Respuestas inteligentes** con IA
+- **Panel de control centralizado** para gestión
 
 ### 🧠 **Sophia - AI Advisor**
-Asistente de IA que guía a empresas en automatización y estrategia de crecimiento.
+Asistente de IA que guía a empresas en automatización y estrategia.
 - Análisis de identidad de marca
 - Cálculo de ROI en automatización
 - Propuestas de estrategias reales
@@ -55,7 +69,7 @@ Asistente de IA que guía a empresas en automatización y estrategia de crecimie
 Plataforma de salud mental y bienestar.
 - Contenido de psicología accesible
 - Newsletter "Snacks" de bienestar mental
-- Diseño centrado en la eficiencia y el autocuidado
+- Diseño centrado en eficiencia y autocuidado
 
 ### 📱 **Proyectos Complementarios**
 - **LinkedIn_PostAgent** - Automatización de contenido LinkedIn
@@ -66,12 +80,15 @@ Plataforma de salud mental y bienestar.
 
 ## 🛠️ Stack Tecnológico
 
-- **Agentes:** OpenClaw (CLI framework para multi-agents)
-- **Backend:** Python (FastAPI), Node.js (TypeScript)
-- **AI/LLM:** OpenAI, Anthropic, Google Gemini
-- **Infra:** Docker, Cloud Run, Vercel
-- **Database:** Supabase, Vector DBs (Chroma/Pinecone)
-- **DevOps:** GitHub Actions, OpenClaw CLI
+| Componente | Tech |
+|------------|------|
+| **Agentes** | OpenClaw (multi-agent framework) |
+| **Cloud** | Google Cloud Platform (GCP) |
+| **Backend** | Python (FastAPI), Node.js (TypeScript) |
+| **AI/LLM** | Google Gemini, OpenAI, Anthropic |
+| **Storage** | Supabase, Vector DBs (Chroma/Pinecone) |
+| **DevOps** | GitHub Actions, Docker |
+| **Communication** | Telegram (OpenClaw Chat), Slack (próximo) |
 
 ---
 
@@ -80,10 +97,11 @@ Plataforma de salud mental y bienestar.
 | Milestone | Status | Fecha |
 |-----------|--------|-------|
 | **Infraestructura Core (OpenClaw)** | ✅ | Feb 2026 |
-| **Team Agents Setup** | ✅ | Mar 2026 |
+| **Team Agents Setup (5-day sprint)** | ✅ | Mar 2026 |
 | **GOG Integration (Gmail/Calendar)** | ✅ | Apr 2026 |
 | **Notion Sync (CRM/Kanban)** | ✅ | Mar 2026 |
 | **GitHub Automation** | 🔄 | Apr 2026 |
+| **Unified Slack Context** | 🎯 | Apr 2026 |
 | **1,500 Usuarios Activos** | 🎯 | Q2 2026 |
 
 ---
@@ -96,12 +114,23 @@ Plataforma de salud mental y bienestar.
 - ✅ Rate limit protocols
 - ✅ Documentación automática
 - ✅ Multi-tenant architecture
+- ✅ GCP Cloud isolation per agent
+
+---
+
+## 💡 Filosofía
+
+> "No hacemos desarrollos a medida. Creamos, validamos, iteramos y lanzamos productos propios desde el laboratorio."
+
+Nuestro **Agente IdentIA** es "plug and play" para cubrir necesidades reales con 3 clicks, evitando toda configuración compleja. Pero **internamente**, nuestro equipo de IA funciona en un contexto de deep work y autonomía, conectado vía Telegram.
+
+El próximo reto: unirlos en un contexto Slack unificado para gestión de proyectos.
 
 ---
 
 ## 📞 Contacto & Links
 
-- **Founder:** David Fajardo (CEO)
+- **Founder:** David Fajardo (CEO) - [LinkedIn](https://www.linkedin.com/in/david-manuel-fajardo-lopez/)
 - **Email:** contacto@identialab.com
 - **Org:** IdentIALab
 - **Plataforma Principal:** https://agente.identialab.com
@@ -110,4 +139,6 @@ Plataforma de salud mental y bienestar.
 
 ---
 
-**Powered by IdentIA Lab | CTO: Techny 🛠️**
+**Powered by IdentIA Lab | Built with OpenClaw | CTO: Techny 🛠️**
+
+> "Estamos compilando una nueva forma de trabajar." — David Fajardo, CEO
