@@ -16,10 +16,26 @@ IdentIA Lab es un laboratorio de innovación dedicado a desarrollar **Agente Ide
 
 ---
 
+## 🌐 Productos & Dominios
+
+| Producto | Dominio | Descripción |
+|----------|---------|-------------|
+| **Agente IdentIA** | https://agente.identialab.com | Plataforma central de IA (Dashboard, coordinación de agentes) |
+| **IdentIA Startup** | https://www.identialab.com | Sitio corporativo, landing page, información |
+| **Buntu Psicología** | studio repo | App de psicología y bienestar |
+
+---
+
 ## 📦 Proyectos Principales
 
-### ✅ **Agente IdentIA** (Core)
-Sistema multi-agente con roles especializados:
+### ✅ **mi-agente-de-citas** (Agente IdentIA - WhatsApp)
+Sistema de IA para WhatsApp Business. Automatiza conversaciones, citas y atención al cliente.
+- **Tecnología:** Google Gemini, WhatsApp Business API
+- **Estado:** En desarrollo
+- **Objetivo:** Demostración de Agente IdentIA en canal mobile
+
+### ✅ **Agente IdentIA - Team Structure**
+Multi-agente coordinado con roles especializados:
 - **David (CEO):** Visión estratégica y decisiones C-Level
 - **Clawdy (COO):** Operatividad, Inbox Zero, gestión de sub-agentes
 - **Growthy (Growth):** Escalado vía X/LinkedIn, content domination
@@ -27,11 +43,15 @@ Sistema multi-agente con roles especializados:
 - **Techny (CTO):** Infraestructura técnica, zero technical debt
 - **Little Claw (Support):** Automatización de tareas recurrentes
 
-### 🤖 **Proyectos en Desarrollo**
-- **mi-agente-de-citas** - WhatsApp Business Agent (Google Gemini powered)
-- **LinkedIn_PostAgent** - Content automation para LinkedIn
+### 🎨 **studio - Buntu Psicología**
+Aplicación de bienestar y psicología enfocada en el usuario final.
+- **Descripción:** Plataforma de psicología digital
+- **Estado:** En desarrollo
+- **Repo:** Privado (IdentIALab/studio)
+
+### 📱 **Proyectos Complementarios**
+- **LinkedIn_PostAgent** - Automatización de contenido LinkedIn
 - **Webapp-IdentIA-Lab** - Dashboard central de agentes
-- **studio** - Página web corporativa V2
 - **sophia-chat** - AI Chat con Supabase + OpenRouter
 - **life-quest-app** - Aplicación lifestyle companion
 
@@ -73,8 +93,9 @@ Sistema multi-agente con roles especializados:
 ## 📞 Contacto
 
 - **Email:** contacto@identialab.com
+- **Plataforma:** https://agente.identialab.com
+- **Sitio Web:** https://www.identialab.com
 - **Org:** IdentIALab
-- **Website:** [Próximamente]
 
 ---
 
