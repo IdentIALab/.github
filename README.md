@@ -135,7 +135,6 @@ El próximo reto: unirlos en un contexto Slack unificado para gestión de proyec
 - **Org:** IdentIALab
 - **Plataforma Principal:** https://agente.identialab.com
 - **Sitio Web:** https://www.identialab.com
-- **Buntu:** https://www.buntupsicologia.com
 
 ---
 
