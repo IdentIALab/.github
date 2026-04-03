@@ -6,13 +6,13 @@
 
 ## ¿Qué es IdentIA Lab?
 
-IdentIA Lab es un laboratorio de innovación dedicado a desarrollar **Agente IdentIA**, una plataforma de IA generativa diseñada para automatizar, optimizar y escalar operaciones empresariales. Nuestro objetivo es alcanzar **1,500 usuarios activos** en los próximos meses, proporcionando herramientas de clase mundial para crecimiento y operación.
+IdentIA Lab es un **Startup Studio** que crea productos SaaS propios impulsados por Inteligencia Artificial. Evolucionamos de agencia digital a laboratorio de innovación donde construimos herramientas escalables que resuelven problemas reales de miles de negocios.
 
 ### 🎯 Nuestra Misión
-- Construir infraestructura de IA nativa y escalable
-- Eliminar deuda técnica operativa
-- Empoderar equipos con automatización inteligente
-- Alcanzar 1,500 usuarios activos en Q2 2026
+- Construir productos SaaS escalables con IA nativa
+- Automatizar procesos repetibles y elevar el valor del trabajo humano
+- Arquitectura cloud-native para 1,500+ usuarios activos
+- Metodología ágil con valor constante
 
 ---
 
@@ -20,45 +20,53 @@ IdentIA Lab es un laboratorio de innovación dedicado a desarrollar **Agente Ide
 
 | Producto | Dominio | Descripción |
 |----------|---------|-------------|
-| **Agente IdentIA** | https://agente.identialab.com | Plataforma central de IA (Dashboard, coordinación de agentes) |
-| **IdentIA Startup** | https://www.identialab.com | Sitio corporativo, landing page, información |
-| **Buntu Psicología** | studio repo | App de psicología y bienestar |
+| **Agente IdentIA** | https://agente.identialab.com | Agente conversacional multi-tenant en WhatsApp/Web + agendamiento 24/7 |
+| **Sophia (IA Assistant)** | https://sophia.identialab.com | Asesor IA gratis que enseña aplicar IA en negocios + ROI |
+| **IdentIA Lab (Startup)** | https://www.identialab.com | Sitio corporativo, productos y visión del studio |
+| **Buntu Psicología** | https://www.buntupsicologia.com | App de psicología digital y bienestar mental |
 
 ---
 
 ## 📦 Proyectos Principales
 
-### ✅ **mi-agente-de-citas** (Agente IdentIA - WhatsApp)
-Sistema de IA para WhatsApp Business. Automatiza conversaciones, citas y atención al cliente.
-- **Tecnología:** Google Gemini, WhatsApp Business API
-- **Estado:** En desarrollo
-- **Objetivo:** Demostración de Agente IdentIA en canal mobile
+### ✅ **Agente IdentIA - Construcción con OpenClaw**
+Sistema multi-agente coordinado, construido en **OpenClaw**, con roles especializados:
+- **David Fajardo (CEO/Founder):** Visión estratégica, decisiones C-Level, deep work en arquitectura
+- **Clawdy (COO):** Operatividad total, Inbox Zero, gestión de sub-agentes
+- **Growthy (Growth Agent):** Escalado vía X/LinkedIn, content domination
+- **Hunter (Sales Agent):** Prospecting, outreach estratégico, cierre de ventas
+- **Techny (CTO):** Infraestructura técnica, zero technical debt, AI-first architecture
+- **Little Claw (Support):** Automatización de tareas recurrentes, barridos automáticos
 
-### ✅ **Agente IdentIA - Team Structure**
-Multi-agente coordinado con roles especializados:
-- **David (CEO):** Visión estratégica y decisiones C-Level
-- **Clawdy (COO):** Operatividad, Inbox Zero, gestión de sub-agentes
-- **Growthy (Growth):** Escalado vía X/LinkedIn, content domination
-- **Hunter (Sales):** Prospecting, outreach, cierre de ventas
-- **Techny (CTO):** Infraestructura técnica, zero technical debt
-- **Little Claw (Support):** Automatización de tareas recurrentes
+**Capacidades:**
+- Atención automática en WhatsApp y Web
+- Agendamiento integrado con calendarios
+- Respuestas inteligentes con IA
+- Panel de control centralizado
 
-### 🎨 **studio - Buntu Psicología**
-Aplicación de bienestar y psicología enfocada en el usuario final.
-- **Descripción:** Plataforma de psicología digital
-- **Estado:** En desarrollo
-- **Repo:** Privado (IdentIALab/studio)
+### 🧠 **Sophia - AI Advisor**
+Asistente de IA que guía a empresas en automatización y estrategia de crecimiento.
+- Análisis de identidad de marca
+- Cálculo de ROI en automatización
+- Propuestas de estrategias reales
+- Acceso gratuito
+
+### 🎨 **Buntu - Psicología Digital**
+Plataforma de salud mental y bienestar.
+- Contenido de psicología accesible
+- Newsletter "Snacks" de bienestar mental
+- Diseño centrado en la eficiencia y el autocuidado
 
 ### 📱 **Proyectos Complementarios**
 - **LinkedIn_PostAgent** - Automatización de contenido LinkedIn
 - **Webapp-IdentIA-Lab** - Dashboard central de agentes
-- **sophia-chat** - AI Chat con Supabase + OpenRouter
 - **life-quest-app** - Aplicación lifestyle companion
 
 ---
 
 ## 🛠️ Stack Tecnológico
 
+- **Agentes:** OpenClaw (CLI framework para multi-agents)
 - **Backend:** Python (FastAPI), Node.js (TypeScript)
 - **AI/LLM:** OpenAI, Anthropic, Google Gemini
 - **Infra:** Docker, Cloud Run, Vercel
@@ -71,10 +79,10 @@ Aplicación de bienestar y psicología enfocada en el usuario final.
 
 | Milestone | Status | Fecha |
 |-----------|--------|-------|
-| **Infraestructura Core** | ✅ | Feb 2026 |
+| **Infraestructura Core (OpenClaw)** | ✅ | Feb 2026 |
 | **Team Agents Setup** | ✅ | Mar 2026 |
-| **GOG (Gmail/Calendar) Integration** | ✅ | Apr 2026 |
-| **Notion Database Sync** | ✅ | Mar 2026 |
+| **GOG Integration (Gmail/Calendar)** | ✅ | Apr 2026 |
+| **Notion Sync (CRM/Kanban)** | ✅ | Mar 2026 |
 | **GitHub Automation** | 🔄 | Apr 2026 |
 | **1,500 Usuarios Activos** | 🎯 | Q2 2026 |
 
@@ -87,15 +95,18 @@ Aplicación de bienestar y psicología enfocada en el usuario final.
 - ✅ SOLID principles + Clean Code
 - ✅ Rate limit protocols
 - ✅ Documentación automática
+- ✅ Multi-tenant architecture
 
 ---
 
-## 📞 Contacto
+## 📞 Contacto & Links
 
+- **Founder:** David Fajardo (CEO)
 - **Email:** contacto@identialab.com
-- **Plataforma:** https://agente.identialab.com
-- **Sitio Web:** https://www.identialab.com
 - **Org:** IdentIALab
+- **Plataforma Principal:** https://agente.identialab.com
+- **Sitio Web:** https://www.identialab.com
+- **Buntu:** https://www.buntupsicologia.com
 
 ---
 
